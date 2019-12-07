@@ -25,32 +25,5 @@
   </dependencies>
     
   <build>
-	<!-- <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M4</version>
-		  <executions>
-			<execution>
-				<id>include-common-lib-tests</id>
-				<phase>compile</phase>
-				Default phase test
-				<goals>
-                    <goal>test</goal>
-                </goals>
-				<configuration>
-					<dependenciesToScan>
-						<dependency>edu.soumya.maven.multimoduletest:common-lib:*:tests:0.0.1-SNAPSHOT</dependency>
-							<groupId>edu.soumya.maven.multimoduletest</groupId>
-							<artifactId>common-lib</artifactId>
-							<version>${project.version}</version>
-							<classifier>tests</classifier>
-						
-					</dependenciesToScan>
-				</configuration>
-			</execution>
-		  </executions>
-        </plugin>
-    </plugins> -->
    </build>
 </project>
