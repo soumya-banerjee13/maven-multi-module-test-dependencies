@@ -9,7 +9,7 @@ Although in ideal scenario we should not skip compiling test classes, but it bec
 
 ### Dependency lookup mechanism of Maven:
 Suppose you have some dependencies for test classes of one module, on test classes of another module and you have added the dependency in your dependent(say dependent-module1) modules' pom.xml, this way:
-```
+```xml
 <dependencies>
   <dependency>
     <groupId>any.group.id</groupId>
